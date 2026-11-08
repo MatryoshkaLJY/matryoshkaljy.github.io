@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://matryoshkaljy.github.io/sitemap.xml

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="850" viewBox="0 0 1440 850" fill="none">
+  <title>IIDX 赛事记分板界面示意</title>
+  <desc>展示团队赛、对局与比分信息的原创示意画面，使用虚构队伍和占位数据。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1440" y2="850" gradientUnits="userSpaceOnUse"><stop stop-color="#111728"/><stop offset="1" stop-color="#252440"/></linearGradient>
+    <linearGradient id="a" x1="75" y1="0" x2="670" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#173c55"/><stop offset="1" stop-color="#222842"/></linearGradient>
+    <linearGradient id="b" x1="770" y1="0" x2="1365" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#29243f"/><stop offset="1" stop-color="#4d2948"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#b5c7dc" stroke-opacity=".035"/></pattern>
+  </defs>
+  <rect width="1440" height="850" fill="url(#bg)"/>
+  <rect width="1440" height="850" fill="url(#grid)"/>
+  <path d="M0 0H1440" stroke="#a7c9d0" stroke-opacity=".5" stroke-width="6"/>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <text x="75" y="78" fill="#c8cfda" font-size="17" letter-spacing="4">IIDX / BROADCAST TOOLKIT</text>
+    <text x="1365" y="78" text-anchor="end" fill="#99a4bc" font-size="15" letter-spacing="3">INTERFACE CONCEPT</text>
+    <text x="75" y="149" fill="#ecedf3" font-size="49" font-weight="700" letter-spacing="-1">BPL TEAM MATCH</text>
+    <rect x="1155" y="113" width="210" height="41" rx="3" fill="#b7cda8" fill-opacity=".09" stroke="#b7cda8" stroke-opacity=".45"/>
+    <circle cx="1177" cy="133" r="4" fill="#b7cda8"/>
+    <text x="1193" y="139" fill="#c3d2b7" font-size="14" letter-spacing="1">SCOREBOARD VIEW</text>
+    <path d="M75 182H1365" stroke="#4b5069"/>
+    <rect x="75" y="221" width="595" height="191" rx="3" fill="url(#a)" stroke="#608399"/>
+    <rect x="770" y="221" width="595" height="191" rx="3" fill="url(#b)" stroke="#8b668e"/>
+    <rect x="75" y="221" width="5" height="191" fill="#91c7d9"/>
+    <rect x="1360" y="221" width="5" height="191" fill="#c6a6ce"/>
+    <text x="112" y="267" fill="#86bbcd" font-size="14" letter-spacing="3">1P SIDE</text>
+    <text x="807" y="267" fill="#bca1c7" font-size="14" letter-spacing="3">2P SIDE</text>
+    <text x="112" y="340" fill="#e2e7ed" font-size="43" font-weight="700" letter-spacing="2">TEAM A</text>
+    <text x="807" y="340" fill="#e2e7ed" font-size="43" font-weight="700" letter-spacing="2">TEAM B</text>
+    <text x="628" y="350" text-anchor="end" fill="#c3e0e8" font-size="83" font-weight="700">0</text>
+    <text x="1323" y="350" text-anchor="end" fill="#e0cbe4" font-size="83" font-weight="700">0</text>
+    <text x="628" y="383" text-anchor="end" fill="#92adbc" font-size="14" letter-spacing="3">POINTS</text>
+    <text x="1323" y="383" text-anchor="end" fill="#b19bb7" font-size="14" letter-spacing="3">POINTS</text>
+    <text x="720" y="327" text-anchor="middle" fill="#9ca4ba" font-size="19" font-weight="700">VS</text>
+    <text x="75" y="466" fill="#8c96ac" font-size="13" letter-spacing="3">MATCH ORDER</text>
+    <text x="1365" y="466" text-anchor="end" fill="#8c96ac" font-size="13" letter-spacing="3">EX SCORE</text>
+    <g fill="#181f33" stroke="#3c445c"><rect x="75" y="491" width="1290" height="74"/><rect x="75" y="577" width="1290" height="74"/><rect x="75" y="663" width="1290" height="74"/></g>
+    <rect x="75" y="491" width="4" height="74" fill="#a8c497"/>
+    <g font-size="17" fill="#bec6d5" letter-spacing="1"><text x="176" y="536">PLAYER A1</text><text x="176" y="622">PLAYER A2</text><text x="176" y="708">PLAYER A3</text><text x="1110" y="536">PLAYER B1</text><text x="1110" y="622">PLAYER B2</text><text x="1110" y="708">PLAYER B3</text></g>
+    <g font-size="16" fill="#78859f"><text x="105" y="536">01</text><text x="105" y="622">02</text><text x="105" y="708">03</text></g>
+    <g font-size="19" fill="#dae0e9"><text x="540" y="536">—</text><text x="540" y="622">—</text><text x="540" y="708">—</text><text x="881" y="536">—</text><text x="881" y="622">—</text><text x="881" y="708">—</text></g>
+    <g font-size="12" fill="#9aa6bc" text-anchor="middle" letter-spacing="2"><text x="720" y="534">1ST MATCH</text><text x="720" y="620">2ND MATCH</text><text x="720" y="706">3RD MATCH</text></g>
+    <path d="M75 770H1365" stroke="#3c445c"/>
+    <text x="75" y="809" fill="#7a879c" font-size="12" letter-spacing="2">SCHEDULE / REVIEW / OVERLAY</text>
+    <text x="1365" y="809" text-anchor="end" fill="#7a879c" font-size="12" letter-spacing="2">ILLUSTRATIVE DATA · NOT A LIVE MATCH</text>
+  </g>
+</svg>

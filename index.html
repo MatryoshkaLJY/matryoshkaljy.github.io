@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MatryoshkaLJY 的个人项目与笔记：IIDX 赛事导播、Pebble 随身助手、ShinyColors 汉化增强、VFD 桌面显示与 Pico 音频切换器。">
+  <meta name="theme-color" content="#f5f3ec">
+  <meta property="og:title" content="MatryoshkaLJY · 项目与笔记">
+  <meta property="og:description" content="从音游到桌面硬件，把喜欢的事做成用得上的东西。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://matryoshkaljy.github.io/">
+  <title>MatryoshkaLJY · 项目与笔记</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header wrap">
+    <a class="brand" href="./" aria-label="MatryoshkaLJY 首页">
+      <svg class="brand-mark" viewBox="0 0 36 42" fill="none" aria-hidden="true"><path d="M18 2a9 9 0 0 1 9 9c0 5 7 8 7 17 0 8-7 12-16 12S2 36 2 28c0-9 7-12 7-17a9 9 0 0 1 9-9Z" stroke="currentColor" stroke-width="2"/><circle cx="18" cy="12" r="4" fill="currentColor"/><path d="M18 21c-5 0-8 6-8 10 0 3 4 4 8 4s8-1 8-4c0-4-3-10-8-10Z" stroke="currentColor" stroke-width="2"/></svg>
+      <span>Matryoshka<span class="brand-suffix">LJY</span><small>PROJECTS &amp; NOTES</small></span>
+    </a>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="#projects">项目<span class="nav-count">05</span></a>
+      <a href="#notes">笔记<span class="nav-count">01</span></a>
+      <a class="nav-github" href="https://github.com/MatryoshkaLJY" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="small-cross" aria-hidden="true">✳</span> A PERSONAL WORKBENCH</p>
+        <h1 id="hero-title">把喜欢的事，<br>做成<span class="underlined">用得上的东西。</span></h1>
+        <p class="hero-description">从音游里的一个小需求，到桌面上的一块电路板。<br class="desktop-break">这里放着我做的工具、改造，以及一路记下的心得。</p>
+        <div class="hero-actions"><a class="button button-dark" href="#projects">看看项目 <span aria-hidden="true">↓</span></a><a class="text-link" href="#notes">读一篇笔记 <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-topics"><span>RHYTHM GAMES</span><i aria-hidden="true">/</i><span>HARDWARE</span><i aria-hidden="true">/</i><span>SMALL TOOLS</span></div>
+      </div>
+      <a class="workbench" href="#vfd" aria-label="查看 Sony VFD 桌面显示项目">
+        <div class="workbench-top"><span>ON THE DESK</span><span class="diagram-label">设备示意 / 01</span></div>
+        <div class="bench-grid" aria-hidden="true">
+          <span class="grid-cross cross-one">+</span><span class="grid-cross cross-two">+</span>
+          <div class="vfd-device"><span class="screw screw-tl"></span><span class="screw screw-tr"></span><span class="screw screw-bl"></span><span class="screw screw-br"></span><div class="vfd-screen"><div class="vfd-topline"><span>VFD / DESKTOP DISPLAY</span><span>BLE</span></div><div class="vfd-digits">HELLO<span class="vfd-dot">.</span></div><div class="vfd-bottomline"><span>16 GRID × 48 SEG</span><div class="vfd-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div></div></div>
+          <div class="bench-wire"></div><div class="bench-chip"><span>nRF52832</span><small>Zephyr / BLE</small></div>
+          <span class="bench-annotation">让一块旧屏幕<br>重新发光。</span>
+        </div>
+        <div class="workbench-bottom"><span><span class="status-dot"></span> VFD_Clock_SONY</span><span aria-hidden="true">↗</span></div>
+      </a>
+    </section>
+
+    <div class="section-divider wrap"><span>SELECTED WORK</span><span>软件 × 硬件 × 一点好奇心</span><span>SCROLL TO EXPLORE ↓</span></div>
+
+    <section class="projects-section wrap" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / PROJECTS</p><h2 id="projects-title">几个正在发光的想法<span class="title-dot">.</span></h2></div><div class="filter-bar" role="group" aria-label="按项目类别筛选" hidden><button class="filter active" type="button" data-filter="all" aria-pressed="true">全部 <span>05</span></button><button class="filter" type="button" data-filter="rhythm" aria-pressed="false">音游 <span>03</span></button><button class="filter" type="button" data-filter="hardware" aria-pressed="false">硬件 <span>02</span></button></div></div>
+      <p class="sr-only" id="filter-status" role="status" aria-live="polite"></p>
+
+      <div class="project-grid">
+        <article class="project project-featured" data-category="rhythm" id="iidx-stream">
+          <div class="project-copy"><div class="project-meta"><span>01 / GAME &amp; BROADCAST</span><span class="category-label">赛事导播</span></div><h3>IIDX Stream<br> Manager</h3><p class="project-lead">从赛程到比分，把比赛带上直播。</p><p class="project-description">面向 beatmania IIDX 赛事的网页导播台。安排赛程与机台，手动抓取并复核成绩，再联动 OBS 场景和实时记分板。</p><ul class="feature-list"><li>BPL 团队赛 / 个人淘汰赛</li><li>机台分配、成绩复核与记分板</li><li>OBS 画面联动与串口音频切换</li></ul><div class="tags"><span>Python</span><span>Flask / SocketIO</span><span>OBS</span></div><a class="project-link" href="https://github.com/MatryoshkaLJY/IIDXStreamManager" target="_blank" rel="noopener noreferrer">查看项目 <span aria-hidden="true">↗</span></a></div>
+          <figure class="scoreboard-visual"><div class="visual-windowbar"><span><i></i><i></i><i></i></span><span>IIDX BPL SCOREBOARD</span><span>LIVE VIEW</span></div><div class="scoreboard-image-wrap"><img src="assets/iidx-scoreboard.svg" width="1440" height="850" alt="IIDX 团队赛记分板界面示意，使用虚构队伍和占位数据" fetchpriority="high"></div><figcaption><span class="status-dot"></span> 界面示意 · 非实时比赛 <span>BROADCAST TOOLKIT</span></figcaption><div class="scoreboard-caption" aria-hidden="true"><span>LESS SWITCHING.<br>MORE PLAYING.</span><span>01<br>↗</span></div></figure>
+        </article>
+
+        <article class="project" data-category="rhythm" id="shinycolors">
+          <div class="project-art shiny-art" role="img" aria-label="ShinyColors 选项效果提示的界面示意"><span class="art-kicker">A LITTLE HELP, RIGHT ON TIME.</span><div class="choice-window"><div class="choice-heading"><span class="choice-spark">✧</span><span>ShinyColors</span><small>育成选项</small></div><div class="choice-line">剧情分支 / 早间对话 <span>→</span></div><div class="choice-hint"><span>效果提示</span><b>Vo</b><b>Da</b><b>Vi</b><b>Me</b><b>SP</b></div><div class="choice-line muted-choice">试镜前对话 <span>→</span></div></div><span class="art-caption">界面示意</span><span class="shiny-flower" aria-hidden="true">✳</span></div>
+          <div class="project-copy"><div class="project-meta"><span>02 / GAME ASSISTANT</span><span class="category-label">浏览器脚本</span></div><h3>ShinyColors</h3><p class="project-lead">把选项效果，放在选项旁边。</p><p class="project-description">enza 版《偶像大师 闪耀色彩》的汉化增强版。在游戏选项下方显示育成数值、亲爱度与心情效果，减少反复查阅攻略的操作。</p><div class="tags"><span>JavaScript</span><span>用户脚本</span><span>Rollup</span></div><p class="project-credit">基于 <a href="https://github.com/biuuu/ShinyColors" target="_blank" rel="noopener noreferrer">biuuu/ShinyColors</a>，增加选项效果提示、角色匹配与自动发布。</p><a class="project-link" href="https://github.com/MatryoshkaLJY/ShinyColors" target="_blank" rel="noopener noreferrer">查看项目 <span aria-hidden="true">↗</span></a></div>
+        </article>
+
+        <article class="project" data-category="rhythm" id="pocket-iidx">
+          <div class="project-art pebble-art" role="img" aria-label="PocketIIDX 在 Pebble 手表上的界面示意"><span class="art-kicker">NEXT CHALLENGE, ON YOUR WRIST.</span><div class="watch-strap"></div><div class="watch"><span class="watch-button left"></span><span class="watch-button right top"></span><span class="watch-button right middle"></span><span class="watch-button right bottom"></span><div class="watch-screen"><strong>POCKET IIDX</strong><span class="watch-selected">难度表 <b>›</b></span><span>歌曲搜索 <b>›</b></span><span>玩家雷达 <b>›</b></span><small>SP / DP · FireNet</small></div><div class="watch-logo">pebble</div></div><span class="art-caption">界面示意</span><span class="pebble-detail">C / PEBBLE SDK<br>SMALL SCREEN, BIG PLAYLIST.</span></div>
+          <div class="project-copy"><div class="project-meta"><span>03 / WRIST COMPANION</span><span class="category-label">Pebble 应用</span></div><h3>PocketIIDX</h3><p class="project-lead">下一首想挑战的谱面，抬腕就能找。</p><p class="project-description">运行在 Pebble 手表上的 IIDX 随身助手。通过 FireNet 浏览订阅难度表、搜索歌曲与收藏，查看 SP / DP 玩家雷达和维度详情。</p><div class="tags"><span>C</span><span>Pebble SDK</span><span>FireNet API</span></div><a class="project-link" href="https://github.com/MatryoshkaLJY/IIDX_PRO_Pebble_Companion" target="_blank" rel="noopener noreferrer">查看项目 <span aria-hidden="true">↗</span></a></div>
+        </article>
+
+        <article class="project" data-category="hardware" id="vfd">
+          <div class="project-art vfd-art" role="img" aria-label="Sony VFD 桌面显示的功能示意：时钟、电脑状态、谱面和通知"><span class="art-kicker">OLD DISPLAY. NEW POSSIBILITIES.</span><div class="vfd-mini"><span>SONY / VACUUM FLUORESCENT DISPLAY</span><strong>16 × 48</strong><div class="vfd-mini-lines"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><small>CLOCK · MONITOR · NOTIFICATION</small></div><span class="art-caption">功能示意</span><span class="circuit-trace trace-one"></span><span class="circuit-trace trace-two"></span></div>
+          <div class="project-copy"><div class="project-meta"><span>04 / DESKTOP HARDWARE</span><span class="category-label">桌面显示</span></div><h3>Sony VFD Clock</h3><p class="project-lead">让一块旧屏幕，重新发光。</p><p class="project-description">用 nRF52832 与 Zephyr 驱动 Sony VFD。通过 BLE 显示时钟与电脑状态，也能播放预置谱面动画、接收 Codex 通知，用敲击完成交互。</p><div class="tags"><span>nRF52832</span><span>Zephyr</span><span>BLE / BMI270</span></div><a class="project-link" href="https://github.com/MatryoshkaLJY/VFD_Clock_SONY" target="_blank" rel="noopener noreferrer">查看项目 <span aria-hidden="true">↗</span></a></div>
+        </article>
+
+        <article class="project" data-category="hardware" id="pico-audio">
+          <div class="project-art pico-art"><span class="art-kicker">FOUR INPUTS. ONE WAY OUT.</span><div class="audio-diagram" role="img" aria-label="四路音频输入经 Pico 控制继电器切换至一路输出的示意图"><div class="audio-inputs"><span class="selected">IN 01</span><span>IN 02</span><span>IN 03</span><span>IN 04</span></div><div class="audio-wires"><i class="selected"></i><i></i><i></i><i></i></div><div class="pico-board"><span class="chip-dot"></span><strong>PICO</strong><small>RP2040</small><div class="board-pins"></div></div><div class="audio-output"><i></i><span>OUT</span></div></div><div class="audio-controls" role="group" aria-label="音源切换示意" hidden><span>试试切换</span><button type="button" data-channel="1" aria-label="示意：选择输入通道 1" aria-pressed="true" class="selected">1</button><button type="button" data-channel="2" aria-label="示意：选择输入通道 2" aria-pressed="false">2</button><button type="button" data-channel="3" aria-label="示意：选择输入通道 3" aria-pressed="false">3</button><button type="button" data-channel="4" aria-label="示意：选择输入通道 4" aria-pressed="false">4</button></div><span class="art-caption">原理示意 · 不连接硬件</span></div>
+          <div class="project-copy"><div class="project-meta"><span>05 / AUDIO HARDWARE</span><span class="category-label">音源切换</span></div><h3>Pico Audio Switch</h3><p class="project-lead">四路音源，一键切换。</p><p class="project-description">基于 Raspberry Pi Pico 的四路音频输入切换器。支持 USB 串口切换、当前通道查询和实体按键，仓库包含固件、PCB、Gerber 与 UF2 文件。</p><div class="tags"><span>RP2040</span><span>TinyUSB CDC</span><span>KiCad</span></div><a class="project-link" href="https://github.com/MatryoshkaLJY/Pico-quad-audio-switch" target="_blank" rel="noopener noreferrer">查看项目 <span aria-hidden="true">↗</span></a></div>
+        </article>
+      </div>
+      <a class="all-repos" href="https://github.com/MatryoshkaLJY?tab=repositories" target="_blank" rel="noopener noreferrer"><span>还有一些实验，放在 GitHub 里。</span><span>查看全部仓库 <b aria-hidden="true">↗</b></span></a>
+    </section>
+
+    <section class="notes-section" id="notes" aria-labelledby="notes-title"><div class="wrap"><div class="section-heading"><div><p class="eyebrow">02 / FIELD NOTES</p><h2 id="notes-title">边做，边记下来<span class="title-dot">.</span></h2></div><span class="notes-aside">一些整理过的经验，留给下次需要的时候。</span></div><a class="note-feature" href="notes/say-halo-training-guide.html"><div class="note-cover" aria-hidden="true"><span>SHINYCOLORS / TRAINING NOTES</span><strong>say<br><em>“Halo”</em></strong><div class="note-cover-bottom"><span>A PRACTICAL<br>FIELD GUIDE</span><b>↗</b></div></div><div class="note-copy"><div class="note-meta"><span>育成心得</span><time datetime="2026-11-08">2026.11.08</time></div><h3>从育成目标，<br>选一条合适的路线。</h3><p>say “Halo” 中文育成手册。按输出、Center、Leader、辅助与三色目标整理路线，说明 Advice 预算、属性门槛和成品检查，附原文来源。</p><div class="note-tools"><span>路线速查</span><span>预算计算</span><span>检查清单</span><span>离线可用</span></div><span class="note-read">打开手册 <span aria-hidden="true">↗</span></span></div></a></div></section>
+
+    <section class="closing wrap"><p class="eyebrow">BUILT OUT OF CURIOSITY.</p><p>有意思的事，<br><span>就动手试试看。</span></p><a class="button button-dark" href="https://github.com/MatryoshkaLJY" target="_blank" rel="noopener noreferrer">在 GitHub 找到我 <span aria-hidden="true">↗</span></a></section>
+  </main>
+
+  <footer class="site-footer wrap"><span>© <span id="year">2026</span> MatryoshkaLJY</span><span>个人项目与笔记 · Hosted on GitHub Pages</span><a href="#top" id="back-top">回到顶部 ↑</a></footer>
+</body>
+</html>
